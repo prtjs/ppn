@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-'use string';
+'use strict';
 
 var chalk = require('chalk');
 var http = require('http');
@@ -12,7 +12,7 @@ var argv;
 if (process.argv[2]) {
     argv = process.argv[2];
 } else {
-    console.log('Uso: pesquisar <termo>');
+    console.log('Uso: ppn <termo>');
     process.exit(0);
 }
 
@@ -39,8 +39,6 @@ var callback = function (response) {
 
         results.forEach(function (i) {
             var description = i.description[0];
-
-            var re = new RegExp('(' + argv + ')', 'gi');
 
             if (franc(description) === 'por') {
                 console.log(chalk.cyan(i.name[0]));
