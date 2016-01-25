@@ -1,0 +1,19 @@
+{
+    "name": "ppn",
+    "version": "0.0.0",
+    "description": "Pesquisar pacotes Node.js em português via linha de comando.",
+    "bin": {
+        "ppn": "./bin/ppn"
+    },
+    "dependencies": {
+        "chalk": "^1.1.1",
+        "franc": "^1.1.1",
+        "iconv-lite": "^0.4.13"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/theuves/ppn.git"
+    },
+    "author": "Matheus Alves",
+    "license": "MIT"
+}
