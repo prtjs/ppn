@@ -1,7 +1,7 @@
 {
     "name": "ppn",
     "version": "0.0.2",
-    "description": "Pesquisar pacotes Node.js em português via linha de comando.",
+    "description": "Pesquisar via linha de comando, por pacotes (publicados no NPM), que estão com a descrição em português.",
     "bin": {
         "ppn": "./bin/ppn"
     },
