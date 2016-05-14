@@ -1,13 +1,14 @@
 # ppn
 
-*Pesquisar pacotes Node.js em português via linha de comando.*
+> Pesquisar via linha de comando, por pacotes (publicados no [NPM](https://www.npmjs.com/)), que estão com a descrição em português.
 
 1. **Instalação**: `npm install --global ppn`
 2. **Uso**: `ppn <termo>`
 
-Exemplo de uso:
+Veja um exemplo:
 
 ![](https://raw.githubusercontent.com/theuves/ppn/master/screenshot.png)
 
-**Autor:** Matheus Alves<br>
-**Licença:** MIT
+## Licença
+
+[MIT](http://theuves.mit-license.org/) &copy; [Matheus Alves](https://github.com/theuves)
