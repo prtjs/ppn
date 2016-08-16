@@ -3,7 +3,7 @@
     "version": "0.0.3",
     "description": "Pesquisar via linha de comando, por pacotes (publicados no NPM), que estão com a descrição em português.",
     "bin": {
-        "ppn": "./bin/ppn"
+        "ppn": "./cli.js"
     },
     "dependencies": {
         "chalk": "^1.1.1",
