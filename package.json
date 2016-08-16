@@ -1,7 +1,7 @@
 {
     "name": "ppn",
     "version": "0.0.3",
-    "description": "Pesquisar via linha de comando, por pacotes (publicados no NPM), que estão com a descrição em português.",
+    "description": "Pesquisar pelo terminal, por pacotes no npm, que estejam em português.",
     "bin": {
         "ppn": "./cli.js"
     },
