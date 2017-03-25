@@ -1,9 +1,9 @@
 {
   "name": "ppn",
   "version": "0.0.5",
-  "description": "Pesquisar pacotes NPM em português via linha de comando.",
+  "description": "Procurar por pacotes NPM em português.",
   "bin": {
-    "ppn": "./cli.js"
+    "ppn": "./bin/ppn"
   },
   "dependencies": {
     "chalk": "^1.1.1",
