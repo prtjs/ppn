@@ -1,19 +1,16 @@
 {
-    "name": "ppn",
-    "version": "0.0.5",
-    "description": "Pesquisar pelo terminal, por pacotes no npm, que estejam em português.",
-    "bin": {
-        "ppn": "./cli.js"
-    },
-    "dependencies": {
-        "chalk": "^1.1.1",
-        "franc": "^1.1.1",
-        "iconv-lite": "^0.4.13"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/theuves/ppn.git"
-    },
-    "author": "Matheus Alves",
-    "license": "MIT"
+  "name": "ppn",
+  "version": "0.0.5",
+  "description": "Pesquisar pacotes NPM em português via linha de comando.",
+  "bin": {
+    "ppn": "./cli.js"
+  },
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "franc": "^1.1.1",
+    "iconv-lite": "^0.4.13"
+  },
+  "repository": "theuves/ppn",
+  "author": "Matheus Alves",
+  "license": "MIT"
 }
