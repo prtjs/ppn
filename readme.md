@@ -1,5 +1,6 @@
 # ppn
 
-> Procurar por pacotes NPM em português.
+> Procurar pacotes com descrição em português.
 
-Instale-o com o comando `npm install --global ppn`.
+    npm i -g ppn
+    ppn
